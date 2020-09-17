@@ -4,8 +4,8 @@ Rails.application.routes.draw do
   resource :timeline, only: [:show]
 
   resources :articles do
-    resources :comments, only: [:new, :create]
-    resource :like, only: [:create, :destroy]
+    resources :comments, only: [:new, :create, :index]
+    resource :like, only: [:show, :create, :destroy]
   end
 
   resources :accounts, only: [:show] do

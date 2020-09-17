@@ -1,0 +1,15 @@
+current directory: /Users/kohei/rails/blog-app/vendor/bundle/ruby/2.6.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+/Users/kohei/.rbenv/versions/2.6.5/bin/ruby -I /Users/kohei/.rbenv/versions/2.6.5/lib/ruby/2.6.0 -r ./siteconf20200911-42124-r1709g.rb extconf.rb
+creating Makefile
+
+current directory: /Users/kohei/rails/blog-app/vendor/bundle/ruby/2.6.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR=" clean
+
+current directory: /Users/kohei/rails/blog-app/vendor/bundle/ruby/2.6.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.bundle
+
+current directory: /Users/kohei/rails/blog-app/vendor/bundle/ruby/2.6.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.bundle ./.gem.20200911-42124-mzuz86
